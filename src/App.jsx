@@ -26,7 +26,6 @@ const App = () => {
     }
   };
 
-
   return (
     <div className="app">
       <h1>MovieBox 2.0......</h1>
@@ -49,7 +48,7 @@ const App = () => {
       {movies?.length > 0 ? (
         <div className="container">
           {movies.map((movie) => (
-            <MovieCard movie={movie} />
+            <MovieCard key={movie.imdbID} movie={movie} />
           ))}
         </div>
       ) : (
