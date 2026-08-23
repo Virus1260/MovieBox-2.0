@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519"/>
+      <stop offset="50%" stop-color="#881337"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="goldPop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#mbBg)" stroke="#fde047" stroke-width="8"/>
+  <!-- Clapperboard Base -->
+  <rect x="110" y="190" width="292" height="170" rx="18" fill="#18181b" stroke="#ffffff" stroke-width="8"/>
+  <!-- Clapperboard Top Slant -->
+  <polygon points="105,185 395,145 405,185 115,225" fill="#fde047"/>
+  <polygon points="145,180 185,174 195,214 155,220" fill="#18181b"/>
+  <polygon points="225,168 265,162 275,202 235,208" fill="#18181b"/>
+  <polygon points="305,156 345,150 355,190 315,196" fill="#18181b"/>
+  <!-- Play Icon -->
+  <polygon points="230,240 295,275 230,310" fill="url(#goldPop)"/>
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">MOVIEBOX</text>
+</svg>
